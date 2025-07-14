@@ -1,0 +1,2 @@
+command -v curl >/dev/null 2>&1 || { sudo apt-get update && sudo apt-get install -y curl; }
+curl -sSL https://raw.githubusercontent.com/zunxbt/octra-wallet-cli/refs/heads/main/start.sh -o start.sh && chmod +x start.sh && ./start.sh
